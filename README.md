@@ -1,4 +1,4 @@
-first try of the google homepage project
+First try of the google homepage project
 Even if it's filled with errors and it's lacking, completing it ment a lot for me. 
 
 To do:
