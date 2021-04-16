@@ -93,6 +93,7 @@ body {
 }
 .footer-nav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     position: relative;
     justify-content: space-between;
