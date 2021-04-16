@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.header-nav_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.header-nav_items .list-item {
+    font-size: 13px;
+}
+.list-item {
+    padding: 0 10px;
+    list-style-type: none;
+}
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    background-color:#2373dbfd;
+    padding: 9px 23px;
+    margin-right: 8px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+}
+.search-bar{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: none;
+    height: 44px;
+    margin: 0 auto;
+
+}
+.search-input {
+    width: 500px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 40px;
+    font-size: 14px;
+}
+.search-options {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.search-button {
+   margin: 0 20px;
+   padding: 10px 20px;
+   cursor: pointer;
+   border: 1px solid #f8f9fa;
+   border-radius: 3px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #3c4043;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px; 
+}
+
+.footer-nav_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #70757a;
+    font-weight: 300;
+}
